@@ -1,8 +1,8 @@
-pi@pi31:~ $ nano mpu6050a_incl_kalman.c
-pi@pi31:~ $ 
-pi@pi31:~ $ g++ -o mpu6050a_incl_kalman mpu6050a_incl_kalman.c -lwiringPi -lm
-pi@pi31:~ $ 
-pi@pi31:~ $ ./mpu6050a_incl_kalman
+~ $ nano ito-mpu6050-kalman-raspberry.c
+~ $ 
+~ $ g++ -o ito-mpu6050-kalman-raspberry ito-mpu6050-kalman-raspberry.c -lwiringPi -lm
+~ $ 
+~ $ ./ito-mpu6050-kalman-raspberry
 roll 	 roll_gyro 	 roll_complementary 	 roll_kalman 	 	pitch 	 pitch_gyro 	 pitch_complementary 	 pitch_kalman 	 	temp/*C 
 -10.5		-10.1			-10.1		-10.1				15.8			14.6				14.6			14.6			27.8	
 -10.0		-10.0			-10.1		-10.0				15.1			14.5				14.6			14.5			27.9	
