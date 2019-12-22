@@ -12,7 +12,7 @@ This C/C++ code is intended to compile and run on a Raspberry Pi. Other hardware
 ## Copyright and Clean Code
 Copyright (C) 2019 Andreas Chr. Dyhrberg. All rights reserved.
 
-This code is based on the work in Python from Kristian Lauszus, but I have ported it to C/C++, added code, reordered and not at least rewritten it heavily to let it fit to the principles of Clean Code by Robert C. Martin. Credit and thanks to Kristian Lauszus for his initial work in Python.
+This code is based on the work for the Arduino and Arduino IDE from Kristian Lauszus. With this publication I have ported it to C++ for GCC on Linux on Raspberry Pi, added code, reordered and not at least rewritten it heavily to let it fit to the principles of Clean Code by Robert C. Martin. Credit and thanks to Kristian Lauszus for his initial work.
 
 If you have any suggestions to the code regarding Clean Code, or any other relevant comment, please let me know. (Exceptions to Clean Code are: No lower-camel case, equal signs etc. in columns accross variable lists)
 
