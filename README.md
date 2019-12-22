@@ -42,3 +42,7 @@ https://github.com/TKJElectronics/KalmanFilter
 ## Mathematical background
 Source for equations and mathematical stuff used: 
 http://www.freescale.com/files/sensors/doc/app_note/AN3461.pdf
+
+## Compiling
+Look at the sample output
+https://github.com/itofficeeu/ito-mpu6050-kalman-raspberry/blob/master/ito-mpu6050-kalman_terminal_out_sample.txt
