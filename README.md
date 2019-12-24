@@ -9,7 +9,7 @@ This software prints demo gyro data out in the terminal (stdio/stdout) that in o
 ## Notes on hardware
 This C/C++ code is intended to compile and run on a Raspberry Pi. Other hardware than Raspberry Pi might use something different than wiringPiI2C and wiringPi to communicate with the sensor. 'stdio' is a typical Linux library, and microcontrollers might use something entirely different to return visible data.
 
-Regards MPU6050 (GY-521): It has no inbuild magnetometer sensor. Only a I2C master port to communicate with an external that you have to supply extra. A magnetometer is needed to determine the yaw rotation.
+Regards MPU6050 (GY-521): It has no inbuild magnetometer sensor. Only a I2C master port to communicate with an external that you have to supply extra. A magnetometer is needed to determine the yaw rotation. Consider something like MPU-9250, or extend the MPU-6250 with an HMC5883L.
 
 ## Copyright and Clean Code
 Copyright (C) 2019 Andreas Chr. Dyhrberg. All rights reserved.
